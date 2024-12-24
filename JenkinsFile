@@ -33,6 +33,7 @@ pipeline {
             }
         }
     }
+}
     post {
         success {
             script {
@@ -43,6 +44,3 @@ pipeline {
             script {
                 echo 'Pipeline gagal.'
             }
-        }
-    }
-}
